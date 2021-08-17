@@ -74,3 +74,26 @@ footer {
   /* margin: 0 auto; */
   background-color: #aaa;
 }
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .contents-box {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .contents-box:first-child,
+  .contents-box:last-child {
+    margin: 0 auto;
+  }
+
+  .box-image1,
+  .box-image2,
+  .box-image3 {
+    background-position: bottom;
+  }
+}
